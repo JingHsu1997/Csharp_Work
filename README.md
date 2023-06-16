@@ -1,10 +1,4 @@
 # Csharp_Work
 Basic functions of C#
 
-Hello \n
-Load \n
-Caculator \n
-POS \n
-Screen Saver \n
-X O Game \n
-Painter
+Hello/Load/Caculator/POS/Screen Saver/X O Game/Painter
