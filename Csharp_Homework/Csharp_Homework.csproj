@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A310C72A-AEE4-487F-B80D-8F5E9AB62F73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Csharp_Homework</RootNamespace>
+    <AssemblyName>Csharp_Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLoadReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoadReport.Designer.cs">
+      <DependentUpon>FormLoadReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMyClac.Designer.cs">
+      <DependentUpon>FormMyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPOS.Designer.cs">
+      <DependentUpon>FormPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPainter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPainter.Designer.cs">
+      <DependentUpon>FrmPainter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScreenSaver.Designer.cs">
+      <DependentUpon>FrmScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHello.Designer.cs">
+      <DependentUpon>FormHello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoad.Designer.cs">
+      <DependentUpon>FormLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmXOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXOGame.Designer.cs">
+      <DependentUpon>FrmXOGame.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormHello.resx">
+      <DependentUpon>FormHello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPOS.resx">
+      <DependentUpon>FormPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPainter.resx">
+      <DependentUpon>FrmPainter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXOGame.resx">
+      <DependentUpon>FrmXOGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoad.resx">
+      <DependentUpon>FormLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoadReport.resx">
+      <DependentUpon>FormLoadReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMyClac.resx">
+      <DependentUpon>FormMyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScreenSaver.resx">
+      <DependentUpon>FrmScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e7f845d5ec830f5e34adceeedebf736d.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
