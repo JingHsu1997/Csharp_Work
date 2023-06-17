@@ -6,16 +6,16 @@
 ##### Using MouseMove and MouseLeave events to create buttons effect.
 
 ```C#=
-private void btnLoad_MouseMove(object sender, MouseEventArgs e)
-{
-btnLoad.ForeColor = Color.White;
-btnLoad.BackColor = Color.Black;
-}
-private void btnLoad_MouseLeave(object sender, EventArgs e)
-{
-btnLoad.ForeColor = Color.Black;
-btnLoad.BackColor = Color.White;
-}
+        private void btnLoad_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnLoad.ForeColor = Color.White;
+            btnLoad.BackColor = Color.Black;
+        }
+        private void btnLoad_MouseLeave(object sender, EventArgs e)
+        {
+            btnLoad.ForeColor = Color.Black;
+            btnLoad.BackColor = Color.White;
+        }
 ```
 #### Date
 ![ezgif com-crop](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/8f4b0210-7153-4c54-a54e-075ccd0e0509)
@@ -35,6 +35,7 @@ btnLoad.BackColor = Color.White;
                             "Finding handsome to date......"
                              );
         }
+```
 ##### Hello
 
 ##### Load
