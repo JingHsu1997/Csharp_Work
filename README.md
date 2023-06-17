@@ -7,9 +7,15 @@
 
 ```C#=
 private void btnLoad_MouseMove(object sender, MouseEventArgs e)
-{btnLoad.ForeColor = Color.White;btnLoad.BackColor = Color.Black;}
+{
+btnLoad.ForeColor = Color.White;
+btnLoad.BackColor = Color.Black;
+}
 private void btnLoad_MouseLeave(object sender, EventArgs e)
-{btnLoad.ForeColor = Color.Black;btnLoad.BackColor = Color.White;}
+{
+btnLoad.ForeColor = Color.Black;
+btnLoad.BackColor = Color.White;
+}
 ```
 ##### Date
 
