@@ -2,7 +2,9 @@
 ### Basic functions of C#
 
 #### Homepage
-![ezgif com-video-to-gif](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/9c34c46c-0700-42df-bedb-9fc1e52c3f07)  
+
+![ezgif com-video-to-gif](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/9c34c46c-0700-42df-bedb-9fc1e52c3f07)width="150%" height="150%"
+
 ##### Using MouseMove and MouseLeave events to create buttons effect.
 
 ```C#=
@@ -17,6 +19,7 @@
             btnLoad.BackColor = Color.White;
         }
 ```
+
 #### Date
 ![ezgif com-crop](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/8f4b0210-7153-4c54-a54e-075ccd0e0509)
 ##### Input testbox.Text and output to Message.Box
