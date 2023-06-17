@@ -17,8 +17,24 @@ btnLoad.ForeColor = Color.Black;
 btnLoad.BackColor = Color.White;
 }
 ```
-##### Date
-
+#### Date
+![ezgif com-crop](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/8f4b0210-7153-4c54-a54e-075ccd0e0509)
+##### Input testbox.Text and output to Message.Box
+```C#=
+        private void buttonHandsome_Click(object sender, EventArgs e)
+        {
+            String Name = txtName.Text;
+            string Age = txtAge.Text;
+            String Sex = txtSex.Text;
+            String Sign = txtSign.Text;
+            MessageBox.Show(
+                            $"Hi,I'm {Name}.\n" +
+                            $"I'm {Age} years old.\n" +
+                            $"I'm {Sex},{Sign}.\n" +
+                            "\n" +
+                            "Finding handsome to date......"
+                             );
+        }
 ##### Hello
 
 ##### Load
