@@ -42,11 +42,11 @@
 
 ### X O Game
 ![ezgif com-gif-maker (7)](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/50c23580-9410-4454-87c0-9e69a81b1d45)
-Created 3*3 array in order to access and manipulate of the buttons' properties and text during the win condition checks in the rest of the winCondition() method.
+###### Created 3*3 array in order to access and manipulate of the buttons' properties and text during the win condition checks in the rest of the winCondition() method.
 ------------------------
 
 ### Painter
 ![ezgif com-gif-maker (8)](https://github.com/JingHsu1997/Csharp_Work/assets/134953373/becf3517-dc0c-47e7-ad6e-14fd660c902c)
-Combined mouse events(mouseup, mousemove and mousedown), graphics drawing, control interaction, data storage, event handling, object-oriented programming, and user interface design to create a simple painting application.
+###### Combined mouse events(mouseup, mousemove and mousedown), graphics drawing, control interaction, data storage, event handling, object-oriented programming, and user interface design to create a simple painting application.
 ------------------------
 
